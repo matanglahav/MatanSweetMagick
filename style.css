@@ -20,6 +20,21 @@ body {
   box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
 }
 
+.hero-banner {
+  margin-top: 70px; /* So it's not hidden behind the fixed header */
+  width: 100%;
+  overflow: hidden;
+}
+
+.banner-image {
+  width: 100%;
+  height: auto;
+  max-height: 90vh;
+  object-fit: cover;
+  display: block;
+}
+
+
 .container {
   width: 90%;
   max-width: 1200px;
