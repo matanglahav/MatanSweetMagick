@@ -7,6 +7,48 @@ body {
   line-height: 1.6;
 }
 
+.main-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.85); /* Light background with slight transparency */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  z-index: 1000;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-family: 'Georgia', serif;
+  font-size: 22px;
+  font-weight: bold;
+  color: #333;
+}
+
+.nav-links a {
+  margin-left: 25px;
+  text-decoration: none;
+  color: #444;
+  font-weight: 500;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #a873e8; /* Feel free to customize your hover color */
+}
+
+
 h1, h2, h3 {
   font-family: 'Playfair Display', serif;
   margin-bottom: 0.5em;
